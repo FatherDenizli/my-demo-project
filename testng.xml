@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/user/IdeaProjects/my-demo-project/src/test/java/projectbaseclasses">
+        <classes>
+            <class name="projectbaseclasses.APITest">
+                <methods>
+                    <include name="get01"/>
+                </methods>
+            </class>
+            <class name="projectbaseclasses.TestClass">
+                <methods>
+                    <include name="Test1"/>
+                    <include name="Test2"/>
+                    <include name="Test3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
